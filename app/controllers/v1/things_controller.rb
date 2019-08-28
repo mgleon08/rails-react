@@ -1,10 +1,14 @@
 class V1::ThingsController < ApplicationController
   def index
     render json: {
-      thing: [
+      things: [
         {
-          name: 'test',
-          uuid: SecureRandom.uuid
+          name: 'server1',
+          guid: SecureRandom.uuid
+        },
+        {
+          name: 'server2',
+          guid: SecureRandom.uuid
         }
       ]
     }
