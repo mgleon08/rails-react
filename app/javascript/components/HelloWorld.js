@@ -9,9 +9,9 @@ import { getThings } from '../actions';
 class HelloWorld extends React.Component {
   render () {
     const { things } = this.props;
-    const thingsList = things.map((thing) => {
+    const thingsList = things.map((thing, index) => {
       return (
-        <List.Item>
+        <List.Item key={index}>
           <List.Icon name='arrow circle right' size='large' verticalAlign='middle' />
           <List.Content>
             <List.Header as='a'>{thing.name}</List.Header>

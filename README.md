@@ -93,6 +93,19 @@ app
     └── things.js
 ```
 
+# TypeScript
+
+* [rails webpacker typescript](https://github.com/rails/webpacker/blob/master/docs/typescript.md)
+
+```
+bundle exec rails webpacker:install:typescript
+```
+
+```
+yarn add @types/react @types/react-dom
+```
+
 # Reference
 
 * [How to create a Rails project with a React and Redux front-end](https://www.freecodecamp.org/news/how-to-create-a-rails-project-with-a-react-and-redux-front-end-8b01e17a1db/)
+* [rails-react-tutorial](https://github.com/markhopson/rails-react-tutorial)
